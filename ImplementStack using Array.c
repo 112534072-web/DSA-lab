@@ -1,9 +1,7 @@
 #include <stdio.h>
 #define MAX 5
-
 int stack[MAX];
 int top = -1;
-
 // Push operation
 void push()
 {
@@ -74,4 +72,3 @@ int main()
     } while (choice != 4);
 
     return 0;
-}
